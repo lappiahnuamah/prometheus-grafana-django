@@ -174,7 +174,7 @@ Open your browser and go to:
 
 ➡️ [http://localhost:3000](http://localhost:3000) (or server IP: `http://your-server-ip:3000`)
 ---
-![Grafana](1.png)
+![Grafana](1.jpeg)
 ---
 **Default credentials:**
 
@@ -182,29 +182,36 @@ Open your browser and go to:
 - **Password:** `admin` (change upon first login)
 
 ---
-![change-password](2.png)
+![change-password](2.jpeg)
 ---
 
 ### 2. Add Prometheus as a Data Source
 
 1. Go to **Configuration → Data Sources**
 ---
-![data-sources](3.png)
+![data-sources](3.PNG)
 ---
 2. Click **"Add data source"**
 ---
-![add-data-sources](4.png)
+![add-data-sources](3a.PNG)
 ---
 3. Select **Prometheus**
 4. Go to Prometheus Settings and set local Prometheus URL
+---
+![prom-url](3b.PNG)
+---
 6. Set the URL to:
 
 ```plaintext
 http://prometheus:9090
 ```
-
+---
+![prom-url-set](3c.PNG)
+---
 5. Click **"Save & Test"**
-
+---
+![save-test](4.PNG)
+---
 ### 3. Create a Dashboard
 
 1. Go to **Dashboards → New Dashboard**
