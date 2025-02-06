@@ -244,5 +244,3 @@ You have successfully set up monitoring for your Django application using Promet
 
 For advanced monitoring, consider adding **Alertmanager** and custom **PromQL queries**! 🚀🔥
 ```
-
-This Markdown file can be used directly in GitHub, a wiki, or a README file for easy documentation. Let me know if you need any modifications! 🚀
