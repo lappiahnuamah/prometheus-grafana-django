@@ -215,13 +215,27 @@ http://prometheus:9090
 ### 3. Create a Dashboard
 
 1. Go to **Dashboards → New Dashboard**
+---
+![dashboard](5.PNG)
+---
 2. Click **"Add visualization"**
+---
+![visualization](5a.PNG)
+---
 3. In the Query section, select **Prometheus** as the data source
+---
+![query](5b.PNG)
+---
+![query](5c.PNG)
+---
 4. Enter a query such as:
 
 ```plaintext
 process_resident_memory_bytes
 ```
+---
+![query](5d.PNG)
+---
 
 5. Click **Apply** and save the dashboard
 
@@ -230,9 +244,20 @@ process_resident_memory_bytes
 ## Step 4: Verify and Monitor Metrics
 
 - Visit **Prometheus UI**: [http://localhost:9090](http://localhost:9090)
+---
+![query](6.PNG)
+---
 - Query Django metrics, e.g., `python_gc_objects_collected_total`
+---
+![query-metrics](6a.PNG)
+---
+![metrics](6b.PNG)
+---
 - Check **Grafana dashboard** for visualized metrics
-
+---
+![dashboard](6c.PNG)
+---
+![query](6d.PNG)
 ---
 
 ## Conclusion
